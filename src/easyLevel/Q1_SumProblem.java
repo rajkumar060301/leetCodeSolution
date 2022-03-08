@@ -7,7 +7,7 @@ package easyLevel;/*
 
 import java.util.HashMap;
 
-public class SumProblem {
+public class Q1_SumProblem {
 
     public int[] twoSum(int[] nums, int target) {
 
@@ -34,6 +34,13 @@ public class SumProblem {
 
         return new int[]{};
 
+    }
+
+    public static void main(String[] args) {
+        Q1_SumProblem q1_sumProblem = new Q1_SumProblem();
+        int[] nums = new int[]{3, 2, 4};
+        int target = 6;
+        System.out.println(q1_sumProblem.twoSum(nums, target));
     }
 
 }
