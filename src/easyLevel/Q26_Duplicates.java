@@ -9,10 +9,10 @@ package easyLevel;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Duplicates {
+public class Q26_Duplicates {
 
     public static void main(String[] args) {
-        Duplicates duplicates = new Duplicates();
+        Q26_Duplicates duplicates = new Q26_Duplicates();
         int[] nums = new int[]{14, 78, 14, 5, 5, 1, 8, 78, 78};
         System.out.println(duplicates.removeDuplicates(nums));
 

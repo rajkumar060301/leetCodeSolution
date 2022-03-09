@@ -5,9 +5,9 @@ package easyLevel;/*
  * Date: 09-Mar-22
  */
 
-public class Palindrome {
+public class Q9_Palindrome {
     public static void main(String[] args) {
-        Palindrome palindrome = new Palindrome();
+        Q9_Palindrome palindrome = new Q9_Palindrome();
         int x = 121;
         System.out.println(palindrome.isPalindrome(x));
 

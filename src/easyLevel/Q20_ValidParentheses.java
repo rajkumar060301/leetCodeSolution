@@ -9,9 +9,9 @@ package easyLevel;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class ValidParentheses {
+public class Q20_ValidParentheses {
     public static void main(String[] args) {
-        ValidParentheses validParentheses = new ValidParentheses();
+        Q20_ValidParentheses validParentheses = new Q20_ValidParentheses();
         System.out.println("Enter the string:");
         Scanner scanner = new Scanner(System.in);
         String s = scanner.nextLine();

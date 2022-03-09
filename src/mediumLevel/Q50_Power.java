@@ -5,10 +5,10 @@ package mediumLevel;/*
  * Date: 08-Mar-22
  */
 
-public class Power {
+public class Q50_Power {
     public static void main(String[] args) {
 //        Scanner scanner = new Scanner(System.in);
-        Power power = new Power();
+        Q50_Power power = new Q50_Power();
         double x = 2.00000;
         int n = -2;
         System.out.println(power.pow(x, n));
